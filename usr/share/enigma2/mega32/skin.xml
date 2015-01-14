@@ -195,11 +195,11 @@
 	</screen>
 
 	<!-- Restart Panel OKK -->
-        <screen name="QuitMainloopScreen" position="fill" backgroundColor="black" flags="wfNoBorder">
-        	<ePixmap pixmap="mega32/megab.png" position="center,90" size="900,465" />
-                <widget name="text" position="center,600" size="720,100" font="Regular;22" halign="center" transparent="1" />
+  <screen name="QuitMainloopScreen" position="fill" backgroundColor="black" flags="wfNoBorder">
+    <ePixmap pixmap="mega32/megab.png" position="0,0" size="1280,720" zPosition="1" />
+		<widget name="text" position="280,654" size="900,100" zPosition="2" font="Regular1;26" halign="left" foregroundColor="dddddd" backgroundColor="black" shadowColor="black" shadowOffset="1,1" transparent="1" />
 		<!-- eLabel name="DEBUG" text="PANEL SP02" position="20,20" size="300,60" font="Regular;40" foregroundColor="red" backgroundColor="#10202020" transparent="1" zPosition="99"/-->
-        </screen>
+  </screen>
 
 	<!-- Subservices Quickzap OKK -->
 	<screen name="SubservicesQuickzap" position="380,600" size="560,100" title="SubServices QuickZap" backgroundColor="transparent" flags="wfNoBorder">
@@ -710,7 +710,6 @@
 	<screen name="PluginDownloadBrowser" position="0,0" size="1280,720" title="Downloadable plugins" backgroundColor="transparent" flags="wfNoBorder" >
 		<panel name="GenericLayoutFullTemplateW" />
 		<panel name="descTemplateLite" />
-		<ePixmap pixmap="mega32/menu/ico_egami.png" position="1010,490" size="256,256" zPosition="2" alphatest="blend" />
 		<ePixmap position="780,100" zPosition="4" size="10,500" pixmap="mega32/bars/maxbar.png" alphatest="blend" transparent="1" />
 		<widget name="list" position="60,100" zPosition="2" size="730,500" scrollbarMode="showOnDemand" itemHeight="50" transparent="1" />
 		<widget name="text" position="840,465" size="400,160" zPosition="10" font="Regular;20" halign="left" foregroundColor="bluette" backgroundColor="black" transparent="1" />
