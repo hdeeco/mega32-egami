@@ -191,16 +191,16 @@
 	<!-- ScreenSaver OKK -->
 	<screen name="Screensaver" position="fill" flags="wfNoBorder">
 		<eLabel position="fill" backgroundColor="#54111112" zPosition="0" />
-		<widget name="picture" pixmap="picon_default.png" position="0,0" size="100,60" alphatest="on" zPosition="1" />
+		<widget name="picture" pixmap="picon_default.png" position="0,0" size="130,80" alphatest="on" zPosition="1" />
 		<!-- eLabel name="DEBUG" text="PANEL SP01" position="20,20" size="300,60" font="Regular;40" foregroundColor="red" backgroundColor="#10202020" transparent="1" zPosition="99"/-->
 	</screen>
 
 	<!-- Restart Panel OKK -->
-  <screen name="QuitMainloopScreen" position="fill" backgroundColor="black" flags="wfNoBorder">
-    <ePixmap pixmap="mega32/megab.png" position="0,0" size="1280,720" zPosition="1" />
+	<screen name="QuitMainloopScreen" position="fill" backgroundColor="black" flags="wfNoBorder">
+		<ePixmap pixmap="mega32/megab.png" position="0,0" size="1280,720" zPosition="1" />
 		<widget name="text" position="280,654" size="900,100" zPosition="2" font="Regular1;26" halign="left" foregroundColor="dddddd" backgroundColor="black" shadowColor="black" shadowOffset="1,1" transparent="1" />
 		<!-- eLabel name="DEBUG" text="PANEL SP02" position="20,20" size="300,60" font="Regular;40" foregroundColor="red" backgroundColor="#10202020" transparent="1" zPosition="99"/-->
-  </screen>
+	</screen>
 
 	<!-- Subservices Quickzap OKK -->
 	<screen name="SubservicesQuickzap" position="380,600" size="560,100" title="SubServices QuickZap" backgroundColor="transparent" flags="wfNoBorder">
