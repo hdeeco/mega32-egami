@@ -196,11 +196,11 @@
 	</screen>
 
 	<!-- Restart Panel OKK -->
-	<screen name="QuitMainloopScreen" position="fill" backgroundColor="black" flags="wfNoBorder">
-		<ePixmap pixmap="mega32/megab.png" position="0,0" size="1280,720" zPosition="1" />
-		<widget name="text" position="280,654" size="900,100" zPosition="2" font="Regular1;26" halign="left" foregroundColor="dddddd" backgroundColor="black" shadowColor="black" shadowOffset="1,1" transparent="1" />
+  <screen name="QuitMainloopScreen" position="fill" backgroundColor="black" flags="wfNoBorder">
+    <ePixmap pixmap="mega32/megab.png" position="0,0" size="1280,720" zPosition="1" />
+		<widget name="text" position="280,652" size="900,100" zPosition="2" font="Regular1;27" halign="left" foregroundColor="dddddd" backgroundColor="black" shadowColor="black" shadowOffset="1,1" transparent="1" />
 		<!-- eLabel name="DEBUG" text="PANEL SP02" position="20,20" size="300,60" font="Regular;40" foregroundColor="red" backgroundColor="#10202020" transparent="1" zPosition="99"/-->
-	</screen>
+  </screen>
 
 	<!-- Subservices Quickzap OKK -->
 	<screen name="SubservicesQuickzap" position="380,600" size="560,100" title="SubServices QuickZap" backgroundColor="transparent" flags="wfNoBorder">
@@ -216,7 +216,7 @@
 	</screen>
 
 	<!-- Numerical help dialog OKK -->
-	<screen name="NumericalTextInputHelpDialog" position="620,500" zPosition="2" size="607,128" backgroundColor="grey" flags="wfNoBorder">
+	<screen name="NumericalTextInputHelpDialog" position="620,250" zPosition="2" size="607,128" backgroundColor="grey" flags="wfNoBorder">
 		<eLabel position="2,2" size="605,126" backgroundColor="#404040" zPosition="-1" />
 		<widget name="key1"  position="2,2"    size="200,30" font="Regular;20" halign="center" valign="center" />
 		<widget name="key2"  position="203,2"  size="200,30" font="Regular;20" halign="center" valign="center" />
@@ -751,7 +751,7 @@
 		<panel name="descTemplate" />
 		<widget name="config" position="55,90" itemHeight="30" size="525,510" scrollbarMode="showOnDemand" zPosition="1" transparent="1" />
 		<widget name="description" position="670,415" size="560,160" zPosition="10" font="Regular;24" halign="center" foregroundColor="bluette" backgroundColor="#10101010" transparent="1" />
-		<widget name="HelpWindow" position="620,450" zPosition="5" size="1,1" transparent="1" alphatest="on" />
+		<widget name="HelpWindow" position="620,250" zPosition="5" size="1,1" transparent="1" alphatest="on" />
 		<!-- eLabel name="DEBUG"  text="PANEL S023" position="20,20" size="300,60" font="Regular;40"  foregroundColor="red" backgroundColor="#10202020" transparent="1" zPosition="99"/-->
 	</screen>
 
@@ -858,7 +858,7 @@
 		<widget source="DNS2text"    render="Label" position="670,560" size="120,26" zPosition="10" font="Regular;22" halign="left"  foregroundColor="white" backgroundColor="black" transparent="1" />
 		<widget source="DNS2"        render="Label" position="800,560" size="230,26" zPosition="10" font="Regular;22" halign="right" foregroundColor="#538eff" backgroundColor="black" transparent="1" />
 		<widget source="introduction2" render="Label" position="60,580" size="560,160" zPosition="10" font="Regular;20" halign="left" foregroundColor="bluette" backgroundColor="black" transparent="1" />
-		<widget name="HelpWindow" position="620,500" zPosition="5" size="1,1" transparent="1" alphatest="on" />
+		<widget name="HelpWindow" position="620,250" zPosition="5" size="1,1" transparent="1" alphatest="on" />
 		<widget name="VKeyIcon" pixmap="mega32/buttons/key_text.png" position="630,400" zPosition="10" size="35,25" transparent="1" alphatest="on" />
 		<ePixmap  pixmap="mega32/buttons/3colorsRGB.png" position="50,659" size="1200,50" zPosition="4" alphatest="blend" transparent="1" />
 		<widget source="key_red"    render="Label"  position="100,667" zPosition="4" size="210,21" font="Regular;19" halign="left" backgroundColor="black" transparent="1" />
@@ -971,7 +971,7 @@
 		<ePixmap pixmap="mega32/menu/ico_net.png" position="940,455" size="256,256" zPosition="2" alphatest="blend" />
 		<widget name="config" position="55,100" zPosition="1" size="525,300" scrollbarMode="showOnDemand" transparent="1" />
 		<widget name="VKeyIcon" pixmap="mega32/skin_default/vkey_icon.png" position="620,430" zPosition="10" size="60,48" transparent="1" alphatest="on" />
-		<widget name="HelpWindow" position="620,490" zPosition="1" size="1,1" transparent="1" alphatest="on" />
+		<widget name="HelpWindow" position="620,250" zPosition="1" size="1,1" transparent="1" alphatest="on" />
 		<widget source="introduction" render="Label" position="60,620" size="520,30" zPosition="10" font="Regular;20" halign="left" foregroundColor="bluette" backgroundColor="#25062748" transparent="1" />
 		<!-- eLabel name="DEBUG"  text="PANEL S037" position="20,20" size="300,60" font="Regular;40"  foregroundColor="red" backgroundColor="#10202020" transparent="1" zPosition="99"/-->
 	</screen>
@@ -1031,7 +1031,7 @@
 		<panel name="1ButtonsW" />
 		<widget name="config" position="60,100" zPosition="1" size="520,300" scrollbarMode="showOnDemand" transparent="1" />
 		<widget name="VKeyIcon" pixmap="mega32/skin_default/vkey_icon.png" position="620,430" zPosition="10" size="60,48" transparent="1" alphatest="on" />
-		<widget name="HelpWindow" position="620,490" zPosition="1" size="1,1" transparent="1" alphatest="on" />
+		<widget name="HelpWindow" position="620,250" zPosition="1" size="1,1" transparent="1" alphatest="on" />
 		<widget source="introduction" render="Label" position="60,620" size="520,40" zPosition="10" font="Regular;20" halign="left" foregroundColor="yellow" backgroundColor="black" transparent="1" />
 		<!-- eLabel name="DEBUG"  text="PANEL S040" position="20,20" size="300,60" font="Regular;40"  foregroundColor="red" backgroundColor="#10202020" transparent="1" zPosition="99"/-->
 	</screen>
