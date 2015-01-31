@@ -8,6 +8,7 @@
 	mmark MOD Rev.1              01/10/2014
 	mimi74 MOD Rev.2             04/01/2015
 	mimi74 MOD Rev.3             11/01/2015
+	mimi74 Blue revision Rev.1   16/01/2015	
 	#
 	##################################################################
 	-->
@@ -55,14 +56,14 @@
 		<color name="WindowTitleBackground"              color="#000000" />
 		<!-- screen border png's -->
 		<borderset name="bsWindow">
-			<pixmap pos="bpTopLeft"     filename="mega32/skin_default/bs_tl.png" />
-			<pixmap pos="bpTop" 	    filename="mega32/skin_default/bs_t.png" />
-			<pixmap pos="bpTopRight"    filename="mega32/skin_default/bs_tr.png" />
-			<pixmap pos="bpLeft" 	    filename="mega32/skin_default/bs_l.png" />
-			<pixmap pos="bpRight" 	    filename="mega32/skin_default/bs_r.png" />
-			<pixmap pos="bpBottomLeft"  filename="mega32/skin_default/bs_bl.png" />
-			<pixmap pos="bpBottom" 	    filename="mega32/skin_default/bs_b.png" />
-			<pixmap pos="bpBottomRight" filename="mega32/skin_default/bs_br.png" />
+			<pixmap pos="bpTopLeft"     filename="mega32blue/skin_default/bs_tl.png" />
+			<pixmap pos="bpTop" 	    filename="mega32blue/skin_default/bs_t.png" />
+			<pixmap pos="bpTopRight"    filename="mega32blue/skin_default/bs_tr.png" />
+			<pixmap pos="bpLeft" 	    filename="mega32blue/skin_default/bs_l.png" />
+			<pixmap pos="bpRight" 	    filename="mega32blue/skin_default/bs_r.png" />
+			<pixmap pos="bpBottomLeft"  filename="mega32blue/skin_default/bs_bl.png" />
+			<pixmap pos="bpBottom" 	    filename="mega32blue/skin_default/bs_b.png" />
+			<pixmap pos="bpBottomRight" filename="mega32blue/skin_default/bs_br.png" />
 		</borderset>
 		<borderset name="bsListboxEntry">
 			<pixmap pos="bpTop" 	    filename="mega32/skin_default/def-bar.png" />
@@ -253,7 +254,7 @@
 
 	<!-- Software Update Plugin 432 -->
 	<screen name="Ipkg" position="center,center" size="612,247" title="Software Update" flags="wfNoBorder" >
-		<ePixmap position="0,0" zPosition="-1" size="612,247" pixmap="mega32/menu/fr_download.png" />
+		<ePixmap position="0,0" zPosition="-1" size="612,247" pixmap="mega32blue/menu/fr_download.png" />
 		<widget name="status" position="10,20" size="590,100" font="Regular;20" halign="center" valign="center" foregroundColor="#538eff" backgroundColor="#25062748" transparent="1" />
 		<ePixmap position="95,140" size="635,21" pixmap="mega32/bars/br_downgr.png" alphatest="blend" transparent="1" zPosition="1" />
 		<widget name="slider"         position="95,140" zPosition="2" size="635,10" pixmap="mega32/bars/upd_cl.png" transparent="1" />
@@ -278,7 +279,7 @@
 		<widget name="list" position="60,90" zPosition="2" size="730,532" scrollbarMode="showOnDemand" transparent="1" />
 		<ePixmap position="780,90" zPosition="14" size="10,532" pixmap="mega32/bars/maxbar.png" alphatest="blend" transparent="1" />
 		<eLabel position="935,120" size="164,560" backgroundColor="#10000000" transparent="1" zPosition="1" />
-		<ePixmap position="890,0" size="320,720" pixmap="mega32/menu/picwiz.png" />
+		<ePixmap position="890,0" size="320,720" pixmap="mega32blue/menu/picwiz.png" />
 		<widget name="rc" position="990,100" size="154,550" pixmaps="skin_default/rc.png" zPosition="10" alphatest="blend" />
 		<widget name="long_key" position="830,580" size="440,30" font="Regular;24" halign="center" foregroundColor="red"  backgroundColor="#10202020" transparent="1" />
 		<widget name="arrowdown" position="-100,-100" size="37,70" pixmap="mega32/skin_default/arrowdown.png" zPosition="11" alphatest="on" />
@@ -388,7 +389,7 @@
 		<panel name="4Buttons" />
 		<panel name="4Buttons2" />
 		<panel name="menuInfo" />
-		<ePixmap  position="0,0" zPosition="-1" size="1280,720" pixmap="mega32/menu/panelwd.png" />
+		<ePixmap  position="0,0" zPosition="-1" size="1280,720" pixmap="mega32blue/menu/panelwd.png" />
 		<eLabel text="EPG Guide" position="40,41" size="770,30" font="Regular;26" halign="center" foregroundColor="bluette" backgroundColor="#202020" transparent="1" zPosition="1" />
 		<!-- Channel/Provider Name -->
 		<ePixmap pixmap="mega32/menu/ico_egami.png" position="1010,490" size="256,256" zPosition="2" alphatest="blend" />
@@ -425,7 +426,7 @@
 
 	<!-- MediaPlayer OKK -->
 	<screen name="MediaPlayer" position="0,0" size="1280,720" title="MediaPlayer" flags="wfNoBorder" >
-		<ePixmap  position="0,0" zPosition="-1" size="1280,720" pixmap="mega32/menu/panelmusic.png" />
+		<ePixmap  position="0,0" zPosition="-1" size="1280,720" pixmap="mega32blue/menu/panelmusic.png" />
 		<eLabel text="Menu - Help" position="1117,49" size="210,21" font="Regular;18" zPosition="1" halign="left" foregroundColor="bluette" backgroundColor="black" transparent="1" />
 		<eLabel text="FileList" position="70,45"   size="600,36" font="Head;28" foregroundColor="#67c3f5" backgroundColor="black" transparent="1" />
 		<widget name="filelist" position="65,110"  size="565,325" scrollbarMode="showOnDemand" itemHeight="25" backgroundColor="black" transparent="1"  />
@@ -515,7 +516,7 @@
 		<panel name="menuInfo" />
 		<panel name="4Buttons" />
 		<!-- Lista Registrazioni -->
-		<ePixmap  position="800,20" zPosition="-1" size="480,400" pixmap="mega32/menu/shadow.png" />
+		<ePixmap  position="800,20" zPosition="-1" size="480,400" pixmap="mega32blue/menu/shadow.png" />
 		<widget name="list" position="60,90" size="730,500" zPosition="4" foregroundColor="white" scrollbarMode="showOnDemand"  transparent="1" />
 		<widget name="waitingtext" position="60,450" size="520,100" zPosition="4" font="Regular;22" halign="left" valign="center" foregroundColor="bluette" backgroundColor="black" transparent="1" />
 		<widget name="freeDiskSpace" position="850,260" size="410,24" font="Regular;20" halign="left" foregroundColor="yellow" backgroundColor="black" transparent="1" shadowColor="black" shadowOffset="1,1" zPosition="2" />
@@ -567,7 +568,7 @@
 
 	<!-- PLUGIN DVD Player Player OKK -->
 	<screen name="DVDPlayer" position="0,550" size="1280,150" title="DVD Player" backgroundColor="#ff000000" flags="wfNoBorder" >
-		<ePixmap position="0,0" zPosition="-1" size="1280,150" pixmap="mega32/menu/moviebar.png" />
+		<ePixmap position="0,0" zPosition="-1" size="1280,150" pixmap="mega32blue/menu/moviebar.png" />
 		<!-- DateTime -->
 		<widget source="global.CurrentTime" render="Label" position="67,18" size="125,22" font="Regular;19" halign="left" backgroundColor="black" foregroundColor="white" transparent="1" >
 			<convert type="ClockToText">Format:%d.%m.%Y</convert>
@@ -1516,7 +1517,7 @@
 	<!-- EPG Selection Multi OKK -->
 	<screen name="EPGSelectionMulti" position="0,0"	size="1280,720" title="EPG Selection Multi"  flags="wfNoBorder">
 		<panel name="4Buttons" />
-		<ePixmap  position="0,0" zPosition="-1" size="1280,720" pixmap="mega32/menu/panelw.png" alphatest="on" transparent="1" />
+		<ePixmap  position="0,0" zPosition="-1" size="1280,720" pixmap="mega32blue/menu/panelw.png" alphatest="on" transparent="1" />
 		<ePixmap position="1215,90" zPosition="3" size="15,525" pixmap="mega32/bars/maxbar.png" alphatest="blend" transparent="1" />
 		<!-- Date/Time Sec -->
 		<widget name="date" position="60,45" size="300,26" font="Regular;24" halign="left" foregroundColor="#538eff" backgroundColor="black" transparent="1" />
@@ -1681,7 +1682,7 @@
 				}
 			</convert>
 		</widget>
-		<ePixmap position="890,0" size="320,720" pixmap="mega32/menu/picwiz.png" />
+		<ePixmap position="890,0" size="320,720" pixmap="mega32blue/menu/picwiz.png" />
 		<widget name="rc" position="990,100" size="154,550" pixmaps="skin_default/rc.png" zPosition="10" alphatest="blend" />
 		<widget name="wizard" position="0,0" size="0,0" />
 		<widget name="arrowdown" position="-100,-100" size="37,70" pixmap="mega32/skin_default/arrowdown.png" zPosition="11" alphatest="on" />
@@ -1703,7 +1704,7 @@
 		<widget name="config" position="60,360" size="730,250" scrollbarMode="showOnDemand" backgroundColor="black" transparent="1" />
 		<widget name="HelpWindow" position="120,220" zPosition="5" size="1,1" transparent="1" alphatest="on" />
 		<eLabel text="RC Control" position="900,45" size="300,40" font="Regular;24" halign="center" foregroundColor="bluette" backgroundColor="#101010" transparent="1" zPosition="99" />
-		<ePixmap position="890,0" size="320,720" pixmap="mega32/menu/picwiz.png" />
+		<ePixmap position="890,0" size="320,720" pixmap="mega32blue/menu/picwiz.png" />
 		<widget name="rc" position="990,100" size="154,550" pixmaps="skin_default/rc.png" zPosition="10" alphatest="blend" />
 		<widget name="wizard" position="0,0" size="0,0" />
 		<widget name="arrowdown" position="-100,-100" size="37,70" pixmap="mega32/skin_default/arrowdown.png" zPosition="11" alphatest="on" />
@@ -1727,7 +1728,7 @@
 		<widget name="config" position="60,440" size="730,270" scrollbarMode="showOnDemand" backgroundColor="black" transparent="1" />
 		<widget name="HelpWindow" position="60,200" zPosition="5" size="1,1" transparent="1" alphatest="on" />
 		<eLabel text="RC Control" position="900,45" size="300,40" font="Regular;24" halign="center" foregroundColor="bluette" backgroundColor="#101010" transparent="1" zPosition="99" />
-		<ePixmap position="890,0" size="320,720" pixmap="mega32/menu/picwiz.png" />
+		<ePixmap position="890,0" size="320,720" pixmap="mega32blue/menu/picwiz.png" />
 		<widget name="rc" position="990,100" size="154,550" pixmaps="skin_default/rc.png" zPosition="10" alphatest="blend" />
 		<widget name="wizard" position="0,0" size="0,0" />
 		<widget name="arrowdown" position="-100,-100" size="37,70" pixmap="mega32/skin_default/arrowdown.png" zPosition="11" alphatest="on" />
@@ -1751,7 +1752,7 @@
 		<widget name="config" position="60,480" size="730,270" scrollbarMode="showOnDemand" backgroundColor="black" transparent="1" />
 		<widget name="HelpWindow" position="60,200" zPosition="5" size="1,1" transparent="1" alphatest="on" />
 		<eLabel text="RC Control" position="900,45" size="300,40" font="Regular;24" halign="center" foregroundColor="bluette" backgroundColor="#101010" transparent="1" zPosition="99" />
-		<ePixmap position="890,0" size="320,720" pixmap="mega32/menu/picwiz.png" />
+		<ePixmap position="890,0" size="320,720" pixmap="mega32blue/menu/picwiz.png" />
 		<widget name="rc" position="990,100" size="154,550" pixmaps="skin_default/rc.png" zPosition="10" alphatest="blend" />
 		<widget name="wizard" position="0,0" size="0,0" />
 		<widget name="arrowdown" position="-100,-100" size="37,70" pixmap="mega32/skin_default/arrowdown.png" zPosition="11" alphatest="on" />
@@ -1775,7 +1776,7 @@
 		<widget name="config" position="60,340" size="730,270" scrollbarMode="showOnDemand" backgroundColor="black" transparent="1" />
 		<widget name="HelpWindow" position="60,200" zPosition="5" size="1,1" transparent="1" alphatest="on" />
 		<eLabel text="RC Control" position="900,45" size="300,40" font="Regular;24" halign="center" foregroundColor="bluette" backgroundColor="#101010" transparent="1" zPosition="99" />
-		<ePixmap position="890,0" size="320,720" pixmap="mega32/menu/picwiz.png" />
+		<ePixmap position="890,0" size="320,720" pixmap="mega32blue/menu/picwiz.png" />
 		<widget name="rc" position="990,100" size="154,550" pixmaps="skin_default/rc.png" zPosition="10" alphatest="blend" />
 		<widget name="wizard" position="0,0" size="0,0" />
 		<widget name="arrowdown" position="-100,-100" size="37,70" pixmap="mega32/skin_default/arrowdown.png" zPosition="11" alphatest="on" />
@@ -1799,7 +1800,7 @@
 		<widget name="config" position="60,340" size="730,270" scrollbarMode="showOnDemand" backgroundColor="black" transparent="1" />
 		<widget name="HelpWindow" position="60,200" zPosition="5" size="1,1" transparent="1" alphatest="on" />
 		<eLabel text="RC Control" position="900,45" size="300,40" font="Regular;24" halign="center" foregroundColor="bluette" backgroundColor="#101010" transparent="1" zPosition="99" />
-		<ePixmap position="890,0" size="320,720" pixmap="mega32/menu/picwiz.png" />
+		<ePixmap position="890,0" size="320,720" pixmap="mega32blue/menu/picwiz.png" />
 		<widget name="rc" position="990,100" size="154,550" pixmaps="skin_default/rc.png" zPosition="10" alphatest="blend" />
 		<widget name="wizard" position="0,0" size="0,0" />
 		<widget name="arrowdown" position="-100,-100" size="37,70" pixmap="mega32/skin_default/arrowdown.png" zPosition="11" alphatest="on" />
@@ -1823,7 +1824,7 @@
 		<widget name="config" position="60,340" size="730,270" scrollbarMode="showOnDemand" backgroundColor="black" transparent="1" />
 		<widget name="HelpWindow" position="60,200" zPosition="5" size="1,1" transparent="1" alphatest="on" />
 		<eLabel text="RC Control" position="900,45" size="300,40" font="Regular;24" halign="center" foregroundColor="bluette" backgroundColor="#101010" transparent="1" zPosition="99" />
-		<ePixmap position="890,0" size="320,720" pixmap="mega32/menu/picwiz.png" />
+		<ePixmap position="890,0" size="320,720" pixmap="mega32blue/menu/picwiz.png" />
 		<widget name="rc" position="990,100" size="154,550" pixmaps="skin_default/rc.png" zPosition="10" alphatest="blend" />
 		<widget name="wizard" position="0,0" size="0,0" />
 		<widget name="arrowdown" position="-100,-100" size="37,70" pixmap="mega32/skin_default/arrowdown.png" zPosition="11" alphatest="on" />
@@ -1847,7 +1848,7 @@
 		<widget name="config" position="60,340" size="730,270" scrollbarMode="showOnDemand" backgroundColor="black" transparent="1" />
 		<widget name="HelpWindow" position="60,200" zPosition="5" size="1,1" transparent="1" alphatest="on" />
 		<eLabel text="RC Control" position="900,45" size="300,40" font="Regular;24" halign="center" foregroundColor="bluette" backgroundColor="#101010" transparent="1" zPosition="99" />
-		<ePixmap position="890,0" size="320,720" pixmap="mega32/menu/picwiz.png" />
+		<ePixmap position="890,0" size="320,720" pixmap="mega32blue/menu/picwiz.png" />
 		<widget name="rc" position="990,100" size="154,550" pixmaps="skin_default/rc.png" zPosition="10" alphatest="blend" />
 		<widget name="wizard" position="0,0" size="0,0" />
 		<widget name="arrowdown" position="-100,-100" size="37,70" pixmap="mega32/skin_default/arrowdown.png" zPosition="11" alphatest="on" />
@@ -1866,7 +1867,7 @@
 		<widget name="list" position="60,370" zPosition="1" size="730,200" />
 		<widget name="HelpWindow" position="60,200" zPosition="5" size="1,1" transparent="1" alphatest="on" />
 		<eLabel text="RC Control" position="900,45" size="300,40" font="Regular;24" halign="center" foregroundColor="bluette" backgroundColor="#101010" transparent="1" zPosition="99" />
-		<ePixmap position="890,0" size="320,720" pixmap="mega32/menu/picwiz.png" />
+		<ePixmap position="890,0" size="320,720" pixmap="mega32blue/menu/picwiz.png" />
 		<widget name="rc" position="990,100" size="154,550" pixmaps="skin_default/rc.png" zPosition="10" alphatest="blend" />
 		<widget name="wizard" position="0,0" size="0,0" />
 		<widget name="arrowdown" position="-100,-100" size="37,70" pixmap="mega32/skin_default/arrowdown.png" zPosition="11" alphatest="on" />
@@ -1925,7 +1926,7 @@
 
 	<!-- Software Update Plugin OKK -->
 	<screen name="UpdatePlugin" position="center,center" size="612,247" title="Software Update" flags="wfNoBorder" >
-		<ePixmap position="0,0" zPosition="-1" size="612,247" pixmap="mega32/menu/fr_download.png" />
+		<ePixmap position="0,0" zPosition="-1" size="612,247" pixmap="mega32blue/menu/fr_download.png" />
 		<widget source="status"  render="Label" position="10,10" size="590,100" font="Regular;20" halign="center" valign="center" foregroundColor="#538eff" backgroundColor="#25062748" transparent="1" />
 		<ePixmap position="95,140" zPosition="1" size="635,21" pixmap="mega32/bars/br_downgr.png" alphatest="blend" transparent="1" />
 		<widget name="slider" position="95,140" zPosition="2" size="635,10" pixmap="mega32/bars/upd_cl.png" transparent="1" />
@@ -2600,10 +2601,10 @@ self.instance.move(ePoint(orgpos.x() + (orgwidth - newwidth)/2, orgpos.y()))
 	</screen>
 
 <!-- Load External Screens -->
-<include filename="mega32/skin_templates.xml" />
-<include filename="mega32/skin_egami_screens.xml" />
-<include filename="mega32/skin_ext_plugins.xml" />
-<include filename="mega32/skin_infobar.xml" />
-<include filename="mega32/skin_channelselectionpig.xml" />
+<include filename="mega32blue/skin_templates.xml" />
+<include filename="mega3blue/skin_egami_screens.xml" />
+<include filename="mega32blue/skin_ext_plugins.xml" />
+<include filename="mega32blue/skin_infobar.xml" />
+<include filename="mega32blue/skin_channelselectionpig.xml" />
 
 </skin>
