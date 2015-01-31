@@ -1286,13 +1286,54 @@
 	<!-- CD-Info OKK -->
 	<screen name="CDInfo" position="0,0" size="1280,720" title="CDInfo" flags="wfNoBorder" >
 		<panel name="GenericLayoutFullTemplate" />
-		<panel name="3ButtonsW" />
-		<widget source="info" render="Label" position="60,90" size="520,50" font="Regular;22" foregroundColor="#538eff" backgroundColor="#000000" transparent="1" />
+		<panel name="2ButtonsW" />
+		<widget source="info" render="Label" position="60,90" size="520,70" font="Regular;22" foregroundColor="#538eff" backgroundColor="#000000" transparent="1" />
 		<widget name="config" position="60,200" size="520,230" scrollbarMode="showOnDemand" transparent="1" />
-		<widget source="info2" render="Label" position="60,480" size="520,120" font="Regular;20" backgroundColor="#25062748" transparent="1" />
+		<widget source="info2" render="Label" position="60,470" size="520,1340" font="Regular;20" backgroundColor="#25062748" transparent="1" />
 		<!-- eLabel name="DEBUG" text="PANEL P095" position="20,20" size="300,60" font="Regular;40" foregroundColor="red" backgroundColor="#10202020" transparent="1" zPosition="99"/-->
 	</screen>
 
+	<!-- DVD-Burn OKK -->
+		<!-- Title list OKK -->
+	<screen name="TitleList" position="0,0" size="1280,720" title="Collection settings" flags="wfNoBorder" >
+		<panel name="GenericLayoutFullTemplate" />
+		<panel name="4ButtonsW" />
+		<panel name="menuOption" />
+			<widget source="title_label" render="Label" position="60,90" size="520,40" font="Regular;22" foregroundColor="#538eff" backgroundColor="#000000" transparent="1" />
+			<widget source="error_label" render="Label" position="60,90" size="520,300" font="Regular;22" zPosition="3" foregroundColor="#538eff" backgroundColor="#000000" transparent="1" />
+			<widget source="titles" render="Listbox" position="60,200" size="520,230" scrollbarMode="showOnDemand" zPosition="3" transparent="1">
+				<convert type="TemplatedMultiContent">
+					{"template": [
+							MultiContentEntryText(pos = (0, 0), size = (360, 20), font = 0, flags = RT_HALIGN_LEFT, text = 1), # index 1 Title,
+							MultiContentEntryText(pos = (0, 20), size = (360, 17), font = 1, flags = RT_HALIGN_LEFT, text = 2), # index 2 description,
+							MultiContentEntryText(pos = (366, 6), size = (152, 20), font = 1, flags = RT_HALIGN_RIGHT, text = 3), # index 3 channel,
+							MultiContentEntryText(pos = (366, 20), size = (102, 17), font = 1, flags = RT_HALIGN_RIGHT, text = 4), # index 4 begin time,
+							MultiContentEntryText(pos = (470, 20), size = (48, 20), font = 1, flags = RT_HALIGN_RIGHT, text = 5), # index 5 duration,
+						],
+					"fonts": [gFont("Regular", 20), gFont("Regular", 14)],
+					"itemHeight": 37
+					}
+				</convert>
+			</widget>
+	<!--			<widget source="hint" render="Label"  position="1083,72" size="170,50" font="Regular;20" halign="center" valign="center" foregroundColor="bluette" backgroundColor="#40000000" shadowColor="black" shadowOffset="-1,-1" zPosition="0" /> -->
+			<widget name="medium_label" position="50,566" size="540,22" font="Regular;18" halign="left" foregroundColors="#FFFFFF,#FFFF00,#FF0000" />
+			<widget source="space_bar_single" render="Progress" position="140,586" size="1,24" borderWidth="1" zPosition="3" backgroundColor="#254f7497" />
+			<widget source="space_bar_dual" render="Progress" position="230,586" size="1,24" borderWidth="1" zPosition="2" backgroundColor="#254f7497" />
+			<widget source="space_bar_bludisc" render="Progress" position="50,586" size="532,24" borderWidth="1" zPosition="1" backgroundColor="#254f7497" />
+			<widget source="space_label" render="Label" position="50,589" size="540,22" zPosition="4" font="Regular;18" halign="center" transparent="1" foregroundColor="#000000" />
+			<widget source="marker_single" render="Label" position="118,610" size="44,12" zPosition="1" font="Regular;11" halign="center" foregroundColor="#FFFFFF" />
+			<widget source="marker_dvd" render="Label" position="163,610" size="44,12" zPosition="1" font="Regular;11" halign="center" foregroundColor="#FFFFFF" />
+			<widget source="marker_dual" render="Label" position="208,610" size="44,12" zPosition="1" font="Regular;11" halign="center" foregroundColor="#FFFFFF" />
+			<widget source="marker_bludisc" render="Label" position="540,610" size="44,12" zPosition="1" font="Regular;11" halign="right" foregroundColor="#FFFFFF" />
+		</screen>
+		<!-- Setup OKK -->
+	<screen name="ProjectSettings" position="0,0" size="1280,720" title="Collection settings" flags="wfNoBorder" >
+		<panel name="GenericLayoutFullTemplate" />
+		<panel name="4ButtonsW" />
+		<widget name="config" position="60,200" size="520,230" scrollbarMode="showOnDemand" transparent="1" />
+		<widget source="info" render="Label" position="60,470" size="520,1340" font="Regular;20" backgroundColor="#25062748" transparent="1" />
+	</screen>
+	
 	<!-- WebIfConfigScreen OKK -->
 	<screen name="WebIfConfigScreen" position="0,0" size="1280,720" title="WebInterface: Main Setup" flags="wfNoBorder" >
 		<panel name="GenericLayoutFullTemplate" />

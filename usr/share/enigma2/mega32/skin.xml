@@ -1668,7 +1668,7 @@
 		<panel name="4Buttons" />
 		<ePixmap position="60,100" size="140,140" pixmap="mega32/skin_default/wizard.png" alphatest="blend" />
 		<eLabel text="Language Wizard..." position="230,125" size="500,60" font="Regular;34"  foregroundColor="white" backgroundColor="#10202020" transparent="1" zPosition="2" />
-		<widget name="text" position="230,175" size="500,300" font="Regular;23" foregroundColor="#6dccff" backgroundColor="black"  transparent="1" />
+		<widget name="text" position="230,175" size="500,300" font="Regular;22" foregroundColor="#6dccff" backgroundColor="black"  transparent="1" />
 		<ePixmap position="780,300" zPosition="14" size="15,300" pixmap="mega32/bars/maxbar.png" alphatest="blend" transparent="1" />
 		<widget source="languages" render="Listbox" position="60,300" size="730,300" scrollbarMode="showOnDemand" transparent="1" >
 			<convert type="TemplatedMultiContent">
@@ -1692,10 +1692,10 @@
 	 </screen>
 
 	<!-- Network Wizard WIZARD OKK -->
-	<screen name="NetworkWizard" position="0,0" size="1280,720" title="Network Wizard.." backgroundColor="black" flags="wfNoBorder">
+	<screen name="NetworkWizard" position="0,0" size="1280,720" title="Network wizard" backgroundColor="black" flags="wfNoBorder">
 		<panel name="GenericLayoutFullTemplateW" />
 		<ePixmap position="60,100" size="140,140" pixmap="mega32/skin_default/wizard.png" alphatest="blend" />
-		<eLabel text="Network Wizard..." position="230,125" size="500,60" font="Regular;34"  foregroundColor="white" backgroundColor="#10202020" transparent="1" zPosition="2" />
+		<eLabel text="Network wizard" position="230,125" size="500,60" font="Regular;34"  foregroundColor="white" backgroundColor="#10202020" transparent="1" zPosition="2" />
 		<widget name="text" position="230,175" size="500,300" font="Regular;22" foregroundColor="#6dccff" backgroundColor="black"  transparent="1" />
 		<widget position="60,400" render="Listbox" scrollbarMode="showOnDemand" size="730,200" source="list" transparent="1" >
 			<convert type="StringList" />
@@ -1720,7 +1720,7 @@
 		<panel name="GenericLayoutFullTemplateW" />
 		<ePixmap position="60,100" size="140,140" pixmap="mega32/skin_default/wizard.png" alphatest="blend" />
 		<eLabel text="Video Wizard..." position="230,125" size="500,60" font="Regular;34"  foregroundColor="white" backgroundColor="#10202020" transparent="1" zPosition="2" />
-		<widget name="text" position="230,175" size="500,300" font="Regular;24" foregroundColor="#6dccff" backgroundColor="black"  transparent="1" />
+		<widget name="text" position="230,175" size="500,300" font="Regular;22" foregroundColor="#6dccff" backgroundColor="black"  transparent="1" />
 		<widget position="60,440" render="Listbox" scrollbarMode="showOnDemand" size="730,210" source="list" transparent="1" >
 			<convert type="StringList" />
 		</widget>
@@ -1744,7 +1744,7 @@
 		<panel name="GenericLayoutFullTemplateW" />
 		<ePixmap position="60,100" size="140,140" pixmap="mega32/skin_default/wizard.png" alphatest="blend" />
 		<eLabel text=" Config Wizard..." position="230,125" size="500,60" font="Regular;34"  foregroundColor="white" backgroundColor="#10202020" transparent="1" zPosition="2" />
-		<widget name="text" position="230,175" size="500,300" font="Regular;23" foregroundColor="#6dccff" backgroundColor="black"  transparent="1" />
+		<widget name="text" position="230,175" size="500,300" font="Regular;22" foregroundColor="#6dccff" backgroundColor="black"  transparent="1" />
 		<widget position="60,480" render="Listbox" scrollbarMode="showOnDemand" size="730,210" source="list" transparent="1" >
 			<convert type="StringList" />
 		</widget>
@@ -1768,7 +1768,7 @@
 		<panel name="GenericLayoutFullTemplateW" />
 		<ePixmap position="60,100" size="140,140" pixmap="mega32/skin_default/wizard.png" alphatest="blend" />
 		<eLabel text="SatLists Wizard..." position="230,125" size="500,60" font="Regular;34"  foregroundColor="white" backgroundColor="#10202020" transparent="1" zPosition="2" />
-		<widget name="text" position="230,175" size="500,300" font="Regular;23" foregroundColor="#6dccff" backgroundColor="black"  transparent="1" />
+		<widget name="text" position="230,175" size="500,300" font="Regular;22" foregroundColor="#6dccff" backgroundColor="black"  transparent="1" />
 		<widget position="60,340" render="Listbox" scrollbarMode="showOnDemand" size="730,210" source="list" transparent="1" >
 			<convert type="StringList" />
 		</widget>
@@ -1792,7 +1792,7 @@
 		<panel name="GenericLayoutFullTemplateW" />
 		<ePixmap position="60,100" size="140,140" pixmap="mega32/skin_default/wizard.png" alphatest="blend" />
 		<eLabel text="Image Wizard..." position="230,125" size="500,60" font="Regular;34"  foregroundColor="white" backgroundColor="#10202020" transparent="1" zPosition="2" />
-		<widget name="text" position="230,175" size="500,300" font="Regular;23" foregroundColor="#6dccff" backgroundColor="black"  transparent="1" />
+		<widget name="text" position="230,175" size="500,300" font="Regular;22" foregroundColor="#6dccff" backgroundColor="black"  transparent="1" />
 		<widget position="60,340" render="Listbox" scrollbarMode="showOnDemand" size="730,210" source="list" transparent="1" >
 			<convert type="StringList" />
 		</widget>
@@ -1816,7 +1816,7 @@
 		<panel name="GenericLayoutFullTemplateW" />
 		<ePixmap position="60,100" size="140,140" pixmap="mega32/skin_default/wizard.png" alphatest="blend" />
 		<eLabel text="Default Wizard..." position="230,125" size="500,60" font="Regular;34"  foregroundColor="white" backgroundColor="#10202020" transparent="1" zPosition="2" />
-		<widget name="text" position="60,240" size="740,300" font="Regular;23" foregroundColor="#6dccff" backgroundColor="black"  transparent="1" />
+		<widget name="text" position="60,240" size="740,300" font="Regular;22" foregroundColor="#6dccff" backgroundColor="black"  transparent="1" />
 		<widget position="60,340" render="Listbox" scrollbarMode="showOnDemand" size="730,270" source="list" transparent="1" >
 			<convert type="StringList" />
 		</widget>
@@ -1840,7 +1840,7 @@
 		<panel name="GenericLayoutFullTemplateW" />
 		<ePixmap position="60,100" size="140,140" pixmap="mega32/skin_default/wizard.png" alphatest="blend" />
 		<eLabel text="Package Wizard..." position="230,125" size="500,60" font="Regular;34"  foregroundColor="white" backgroundColor="#10202020" transparent="1" zPosition="2" />
-		<widget name="text" position="230,240" size="500,200" font="Regular;23" foregroundColor="#6dccff" backgroundColor="black"  transparent="1" />
+		<widget name="text" position="230,240" size="500,200" font="Regular;22" foregroundColor="#6dccff" backgroundColor="black"  transparent="1" />
 		<widget position="60,340" render="Listbox" scrollbarMode="showOnDemand" size="730,210" source="list" transparent="1" >
 			<convert type="StringList" />
 		</widget>
@@ -1862,7 +1862,7 @@
 	<!-- Tutorial Wizard OKK -->
  	<screen name="TutorialWizard" position="0,0" size="1280,720" title="Tutorial Wizard..." backgroundColor="black"  flags="wfNoBorder">
 		<panel name="GenericLayoutFullTemplateW" />
-		<widget name="text" position="60,90" size="730,300" font="Regular;23" transparent="1" />
+		<widget name="text" position="60,90" size="730,300" font="Regular;22" transparent="1" />
 		<widget name="list" position="60,370" zPosition="1" size="730,200" />
 		<widget name="HelpWindow" position="60,200" zPosition="5" size="1,1" transparent="1" alphatest="on" />
 		<eLabel text="RC Control" position="900,45" size="300,40" font="Regular;24" halign="center" foregroundColor="bluette" backgroundColor="#101010" transparent="1" zPosition="99" />

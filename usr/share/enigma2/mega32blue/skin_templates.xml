@@ -339,6 +339,14 @@
 			<convert type="MenuEntryCompare">device_screen</convert>
 			<convert type="ConditionalShowHide"/>
 		</widget>
+		<widget source="menu" render="Pixmap" pixmap="mega32/menu/ico_info_memory.png" position="940,455" size="256,256" alphatest="blend" transparent="1" zPosition="1" >
+			<convert type="MenuEntryCompare">memory_screen</convert>
+			<convert type="ConditionalShowHide"/>
+		</widget>
+		<widget source="menu" render="Pixmap" pixmap="mega32/menu/ico_info_net.png" position="940,455" size="256,256" alphatest="blend" transparent="1" zPosition="1" >
+			<convert type="MenuEntryCompare">network_screen</convert>
+			<convert type="ConditionalShowHide"/>
+		</widget>
 		<widget source="menu" render="Pixmap" pixmap="mega32/menu/ico_info_service.png" position="940,455" size="256,256" alphatest="blend" transparent="1" zPosition="1" >
 			<convert type="MenuEntryCompare">service_info_screen</convert>
 			<convert type="ConditionalShowHide"/>
@@ -602,6 +610,16 @@
 		<eLabel text="Menu - Help" position="1113,42" size="110,30" font="Regular;20" halign="center" valign="center" foregroundColor="bluette" backgroundColor="#40000000" shadowColor="black" shadowOffset="-1,-1" zPosition="0" />
 	</screen>
 
+	<screen name="menuList">
+		<ePixmap  position="1114,32" zPosition="1" size="108,15" pixmap="mega32/buttons/colors.png" alphatest="blend" />
+		<eLabel text="Menu - List" position="1113,42" size="110,30" font="Regular;20" halign="center" valign="center" foregroundColor="bluette" backgroundColor="#40000000" shadowColor="black" shadowOffset="-1,-1" zPosition="0" />
+	</screen>
+
+	<screen name="menuOption">
+		<ePixmap  position="1114,32" zPosition="1" size="108,15" pixmap="mega32/buttons/colors.png" alphatest="blend" />
+		<eLabel text="Menu - Opt." position="1113,42" size="110,30" font="Regular;20" halign="center" valign="center" foregroundColor="bluette" backgroundColor="#40000000" shadowColor="black" shadowOffset="-1,-1" zPosition="0" />
+	</screen>
+		
 	<screen name="menuInfo">
 		<ePixmap  position="1114,32" zPosition="1" size="108,15" pixmap="mega32/buttons/colors.png" alphatest="blend" />
 		<eLabel text="Menu - Info" position="1113,42" size="110,30" font="Regular;20" halign="center" valign="center" foregroundColor="bluette" backgroundColor="#40000000" shadowColor="black" shadowOffset="-1,-1" zPosition="0" />

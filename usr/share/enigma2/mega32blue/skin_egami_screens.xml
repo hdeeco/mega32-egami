@@ -379,6 +379,7 @@
 	<!--  EGAMI Weather Plugin OKK -->
 	<screen name="ForecaWeatherPlugin" position="0,0" size="1280,720" title="AccuWeather - foreca.com" backgroundColor="transparent" flags="wfNoBorder" >
 		<panel name="2Buttons" />
+		<panel name="menuList" />
 		<ePixmap  position="0,0"     size="1280,720"    pixmap="mega32blue/menu/panelwd.png" zPosition="-1" />
 		<widget name="statustext"    position="60,43"   size="730,550" font="Regular;24" halign="center" valign="center" backgroundColor="#10000000" zPosition="2" />
 		<ePixmap position="60,43"    size="16,26"       pixmap="/usr/lib/enigma2/python/Plugins/Extensions/AccuWeather/image/nm_left-fs8.png" alphatest="blend" zPosition="5" />
@@ -411,8 +412,8 @@
 		<widget name="dia3"          position="901,544" size="340,25"   halign="left" valign="center" font="Regular; 22" transparent="1" backgroundColor="#000000" zPosition="1" />
 		<widget name="icono_dia3"    position="819,544" size="79,79"    alphatest="blend" zPosition="1" />
 		<widget name="info_dia3"     position="901,568" size="340,55"   halign="left" valign="top" font="Regular; 17" transparent="1" backgroundColor="#000000" zPosition="1" />
-		<ePixmap position="1020,666" size="40,40"       pixmap="skin_default/buttons/key_menu.png" transparent="1" alphatest="blend" zPosition="3" />
-		<widget position="970,667"   name="key_menu"    size="210,21" font="Regular;19" halign="left" foregroundColor="white" backgroundColor="black" zPosition="1" transparent="1" />
+	<!--		<ePixmap position="1020,666" size="40,40"       pixmap="skin_default/buttons/key_menu.png" transparent="1" alphatest="blend" zPosition="3" />
+		<widget position="970,667"   name="key_menu"    size="210,21" font="Regular;19" halign="left" foregroundColor="white" backgroundColor="black" zPosition="1" transparent="1" /> -->
 		<!-- eLabel name="DEBUG"  text="PANEL E036" position="20,20" size="300,60" font="Regular;40"  foregroundColor="red" backgroundColor="#10202020" transparent="1" zPosition="99"/-->
 	</screen>
 	

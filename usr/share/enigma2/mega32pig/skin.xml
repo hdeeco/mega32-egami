@@ -1692,10 +1692,10 @@
 	 </screen>
 
 	<!-- Network Wizard WIZARD OKK -->
-	<screen name="NetworkWizard" position="0,0" size="1280,720" title="Network Wizard.." backgroundColor="black" flags="wfNoBorder">
+	<screen name="NetworkWizard" position="0,0" size="1280,720" title="Network wizard" backgroundColor="black" flags="wfNoBorder">
 		<panel name="GenericLayoutFullTemplateW" />
 		<ePixmap position="60,100" size="140,140" pixmap="mega32/skin_default/wizard.png" alphatest="blend" />
-		<eLabel text="Network Wizard..." position="230,125" size="500,60" font="Regular;34"  foregroundColor="white" backgroundColor="#10202020" transparent="1" zPosition="2" />
+		<eLabel text="Network wizard" position="230,125" size="500,60" font="Regular;34"  foregroundColor="white" backgroundColor="#10202020" transparent="1" zPosition="2" />
 		<widget name="text" position="230,175" size="500,300" font="Regular;22" foregroundColor="#6dccff" backgroundColor="black"  transparent="1" />
 		<widget position="60,400" render="Listbox" scrollbarMode="showOnDemand" size="730,200" source="list" transparent="1" >
 			<convert type="StringList" />
