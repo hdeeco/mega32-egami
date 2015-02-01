@@ -196,11 +196,11 @@
 	</screen>
 
 	<!-- Restart Panel OKK -->
-  <screen name="QuitMainloopScreen" position="fill" backgroundColor="black" flags="wfNoBorder">
-    <ePixmap pixmap="mega32/megab.png" position="0,0" size="1280,720" zPosition="1" />
-		<widget name="text" position="280,652" size="900,100" zPosition="2" font="Regular1;27" halign="left" foregroundColor="dddddd" backgroundColor="black" shadowColor="black" shadowOffset="1,1" transparent="1" />
+        <screen name="QuitMainloopScreen" position="fill" backgroundColor="black" flags="wfNoBorder">
+        	<ePixmap pixmap="mega32/megab.png" position="center,90" size="900,465" />
+                <widget name="text" position="center,600" size="720,100" font="Regular;22" halign="center" transparent="1" />
 		<!-- eLabel name="DEBUG" text="PANEL SP02" position="20,20" size="300,60" font="Regular;40" foregroundColor="red" backgroundColor="#10202020" transparent="1" zPosition="99"/-->
-  </screen>
+        </screen>
 
 	<!-- Subservices Quickzap OKK -->
 	<screen name="SubservicesQuickzap" position="380,600" size="560,100" title="SubServices QuickZap" backgroundColor="transparent" flags="wfNoBorder">
