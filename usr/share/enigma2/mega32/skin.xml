@@ -647,7 +647,7 @@
 	</screen>
 
 	<!-- Device Info OKK -->
-	<screen name="SystemDevicesInfo" position="0,0" size="1280,720" title="Devices Informations" backgroundColor="transparent" flags="wfNoBorder">
+	<screen name="Devices" position="0,0" size="1280,720" title="Devices Informations" backgroundColor="transparent" flags="wfNoBorder">
 		<panel name="GenericLayoutFullTemplateW" />
 		<widget name="lab1" position="60,90" zPosition="2" size="350,46" font="RegularAA;38" halign="left" foregroundColor="#004c74" backgroundColor="transpBlack" transparent="1" />
 		<widget source="TunerHeader"  render="Label" position="60,170" size="520,438" font="Regular;21" halign="left" foregroundColor="white" backgroundColor="transpBlack" transparent="1" />
