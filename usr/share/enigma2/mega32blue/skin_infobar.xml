@@ -203,11 +203,11 @@
 		<widget source="session.CurrentService" render="Label" position="60,654" size="630,22" font="Regular;19" halign="left" noWrap="1" foregroundColor="#707070" backgroundColor="#10101010" transparent="1" zPosition="11">
 			<convert type="EGExtraInfo">NetInfo</convert>
 		</widget>
-		<widget source="session.CurrentService" render="Label" position="408,654"  size="610,22" halign="right" font="Regular;19" foregroundColor="#606060" backgroundColor="#10101010" transparent="1" zPosition="11">
+		<widget source="session.CurrentService" render="Label" position="308,654"  size="610,22" halign="right" font="Regular;19" foregroundColor="#606060" backgroundColor="#10101010" transparent="1" zPosition="11">
 			<convert type="PliExtraInfo">CryptoSpecial</convert>
 		</widget>
 		
-		<widget source="session.CurrentService" render="Label" position="830,655" size="610,22" font="Regular;19" halign="right" foregroundColor="yellow" backgroundColor="#10101010"  transparent="1" zPosition="11">
+		<widget source="session.CurrentService" render="Label" position="620,655" size="610,22" font="Regular;19" halign="right" foregroundColor="yellow" backgroundColor="#10101010"  transparent="1" zPosition="11">
 			<convert type="EGExtraInfo">EcmInfo</convert>
 		</widget>
 		<!--<widget source="session.CurrentService" render="Label" position="605,670"  size="610,22" font="Regular;19" halign="right" backgroundColor="#10101010" foregroundColor="grey" transparent="1" zPosition="11">
