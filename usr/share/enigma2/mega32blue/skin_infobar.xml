@@ -194,9 +194,9 @@
 			<convert type="FrontendInfo">STRING</convert>
 		</widget>
 
-		<widget source="session.CurrentService" render="Label" position="1110,595" size="130,20" font="Regular;19" halign="left" foregroundColor="bluette" backgroundColor="#101010" transparent="1" zPosition="11">
+		<!--<widget source="session.CurrentService" render="Label" position="1110,595" size="130,20" font="Regular;19" halign="left" foregroundColor="bluette" backgroundColor="#101010" transparent="1" zPosition="11">
 			<convert type="EGExtraInfo">CamName</convert>
-		</widget>
+			</widget>-->
 		<widget source="session.CurrentService" render="Label" position="1110,617" size="140,20" font="Regular;19" foregroundColor="#808080" backgroundColor="#10101010" transparent="1" zPosition="12">
 			<convert type="EGExtraInfo">E-C-N</convert>
 		</widget>
@@ -252,9 +252,9 @@
 			<convert type="FrontendInfo">STRING</convert>
 		</widget>
 
-		<widget source="session.CurrentService" render="Label" position="1110,595" size="130,20" font="Regular;19" halign="left" foregroundColor="bluette" backgroundColor="#101010" transparent="1" zPosition="11">
+		<!--<widget source="session.CurrentService" render="Label" position="1110,595" size="130,20" font="Regular;19" halign="left" foregroundColor="bluette" backgroundColor="#101010" transparent="1" zPosition="11">
 			<convert type="EGExtraInfo">CamName</convert>
-		</widget>
+			</widget>-->
 		<widget source="session.CurrentService" render="Label" position="1110,617" size="140,20" font="Regular;19" foregroundColor="#808080" backgroundColor="#101010" transparent="1" zPosition="12">
 			<convert type="EGExtraInfo">E-C-N</convert>
 		</widget>
