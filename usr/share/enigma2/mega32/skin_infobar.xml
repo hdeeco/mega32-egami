@@ -164,23 +164,6 @@
 			<convert type="EGExtraInfo">CryptoBar</convert>
 		</widget>
 
-		<!-- Internet connection Status
-		<widget source="session.CurrentService" render="Pixmap" position="890,658" size="20,16" pixmap="mega32/icons/ico_net.png" alphatest="blend" zPosition="8" >
-			<convert type="EGOnLineTest">NetConection</convert>
-			<convert type="ConditionalShowHide" />
-		</widget>    
-		<widget source="session.CurrentService" render="Pixmap" position="890,658" size="20,16" pixmap="mega32/icons/ico_inet.png" alphatest="blend" zPosition="9" >
-			<convert type="EGOnLineTest">InetConection</convert>
-			<convert type="ConditionalShowHide" />
-		</widget> -->
-		<!-- OnLine updates
-		<ePixmap pixmap="mega32/icons/ico_line_off.png" position="928,655" size="20,20" zPosition="3" alphatest="blend" />
-		<widget source="global.OnlineStableUpdateState" render="Pixmap" pixmap="mega32/icons/ico_line_on.png" position="928,655" size="20,20" zPosition="4" alphatest="blend" >
-			<convert type="ConditionalShowHide">Blink</convert>
-		</widget>
-		<widget source="global.OnlineUnstableUpdateState" render="Pixmap" pixmap="mega32/icons/ico_line_on.png" position="928,655" size="20,20" zPosition="4" alphatest="blend" >
-			<convert type="ConditionalShowHide">Blink</convert>
-		</widget> -->
 		<!-- Data -->
 		<widget source="global.CurrentTime" render="Label" position="960,655" size="120,26" zPosition="2" font="Regular;20"  backgroundColor="transpBlack" foregroundColor="#808080" transparent="1" >
 			<convert type="ClockToText">Format:%d.%m.%Y</convert>
@@ -211,9 +194,9 @@
 			<convert type="FrontendInfo">STRING</convert>
 		</widget>
 
-		<widget source="session.CurrentService" render="Label" position="1110,595" size="130,20" font="Regular;19" halign="left" foregroundColor="bluette" backgroundColor="#101010" transparent="1" zPosition="11" >
+		<!--<widget source="session.CurrentService" render="Label" position="1110,595" size="130,20" font="Regular;19" halign="left" foregroundColor="bluette" backgroundColor="#101010" transparent="1" zPosition="11" >
 			<convert type="EGExtraInfo">CamName</convert>
-		</widget>
+		</widget>-->
 		<widget source="session.CurrentService" render="Label" position="1110,617" size="140,20" font="Regular;19" foregroundColor="#808080" backgroundColor="#10101010" transparent="1" zPosition="12" >
 			<convert type="EGExtraInfo">E-C-N</convert>
 		</widget>
@@ -258,7 +241,7 @@
 		<panel name="InfoBar"/>
 		<panel name="SecondInfoBarNow1" />
 		<panel name="SecondInfoBarNext1" />
-		<panel name="weatPanel" />
+		<!--<panel name="weatPanel" />-->
 		<eLabel position="54,652" size="1170,26"  backgroundColor="#30000000" zPosition="10"/>
 		<eLabel position="1102,564" size="123,80" backgroundColor="#30000000" zPosition="10"/>
 
@@ -269,9 +252,9 @@
 			<convert type="FrontendInfo">STRING</convert>
 		</widget>
 
-		<widget source="session.CurrentService" render="Label" position="1110,595" size="130,20" font="Regular;19" halign="left" foregroundColor="bluette" backgroundColor="#101010" transparent="1" zPosition="11" >
+		<!--<widget source="session.CurrentService" render="Label" position="1110,595" size="130,20" font="Regular;19" halign="left" foregroundColor="bluette" backgroundColor="#101010" transparent="1" zPosition="11" >
 			<convert type="EGExtraInfo">CamName</convert>
-		</widget>
+		</widget>-->
 		<widget source="session.CurrentService" render="Label" position="1110,617" size="140,20" font="Regular;19" foregroundColor="#808080" backgroundColor="#101010" transparent="1" zPosition="12" >
 			<convert type="EGExtraInfo">E-C-N</convert>
 		</widget>

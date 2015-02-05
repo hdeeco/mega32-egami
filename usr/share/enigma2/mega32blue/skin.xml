@@ -1,17 +1,4 @@
 <skin>
-	<!--
-	################### mmark_megaHD_EGAMI v.1.1 #####################
-	#
-	mmark Version 1.1 released
-	#
-	EGAMI MOD and additions v1.4 14.08.2013
-	mmark MOD Rev.1              01/10/2014
-	mimi74 MOD Rev.2             04/01/2015
-	mimi74 MOD Rev.3             11/01/2015
-	mimi74 Blue revision Rev.1   16/01/2015
-	#
-	##################################################################
-	-->
 	<output id="0">
 		<resolution xres="1280" yres="720" bpp="32" />
 	</output>
@@ -2504,7 +2491,7 @@ self.instance.move(ePoint(orgpos.x() + (orgwidth - newwidth)/2, orgpos.y()))
 
 <!-- Load External Screens -->
 <include filename="mega32blue/skin_templates.xml" />
-<include filename="mega32blue/skin_egami_screens.xml" />
+<include filename="mega32blue/skin_agonis_screens.xml" />
 <include filename="mega32blue/skin_ext_plugins.xml" />
 <include filename="mega32blue/skin_infobar.xml" />
 <include filename="mega32blue/skin_channelselection.xml" />

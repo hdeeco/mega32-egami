@@ -1,6 +1,5 @@
 <skin>
-	<!--  EGAMI News About OKK -->
-	<screen name="AGONISMainNews" position="fill" title="AGONIS News" >
+	<screen name="AGONISMainNews" position="fill" title="EGAMI News" >
 		<panel name="GenericLayoutFullTemplateW" />
 		<panel name="4ButtonsW" />
 		<widget name="header" position="820,440" size="420,120" font="Regular;24" halign="center" backgroundColor="#101010" transparent="1" />
@@ -20,7 +19,6 @@
 		<!-- eLabel name="DEBUG"  text="PANEL E005" position="20,20" size="300,60" font="Regular;40"  foregroundColor="red" backgroundColor="#10202020" transparent="1" zPosition="99"/-->
 	</screen>
 
-	<!--  EGAMI News Updates Info OKK -->
 	<screen name="AGONISUpdateInfo" position="fill" title="EGAMI News" >
 		<panel name="GenericLayoutFullTemplateW" />
 		<panel name="4ButtonsW" />
@@ -31,7 +29,6 @@
 		<!-- eLabel name="DEBUG"  text="PANEL E006" position="20,20" size="300,60" font="Regular;40" foregroundColor="red" backgroundColor="#10202020" transparent="1" zPosition="99"/-->
 	</screen>   
 
-	<!--  EGAMI News Updates OKK -->
 	<screen name="UpdateAGONIS" position="center,center" size="550,200" title="Software update" >
 		<widget name="activityslider" position="10,10" size="530,15" backgroundColor="bluette" />
 		<eLabel position="9,89" size="532,32" backgroundColor="bluette"/>
