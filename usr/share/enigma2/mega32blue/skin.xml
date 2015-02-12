@@ -184,7 +184,7 @@
 
 	<!-- Restart Panel OKK -->
         <screen name="QuitMainloopScreen" position="fill" backgroundColor="black" flags="wfNoBorder">
-        	<ePixmap pixmap="mega32/megab.png" position="center,90" size="900,465" />
+	  <!--ePixmap pixmap="mega32/megab.png" position="center,90" size="900,465" />-->
                 <widget name="text" position="center,600" size="720,100" font="Regular;22" halign="center" transparent="1" />
 		<!-- eLabel name="DEBUG" text="PANEL SP02" position="20,20" size="300,60" font="Regular;40" foregroundColor="red" backgroundColor="#10202020" transparent="1" zPosition="99"/-->
         </screen>
